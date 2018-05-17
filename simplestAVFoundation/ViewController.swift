@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var mainView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        _ = SimpestAVFoundation(view: self.mainView)
     }
 
     override func didReceiveMemoryWarning() {

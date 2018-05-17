@@ -12,6 +12,8 @@
 		BE07786820AB2AED00DA2151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE07786620AB2AED00DA2151 /* Main.storyboard */; };
 		BE07786A20AB2AF100DA2151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE07786920AB2AF100DA2151 /* Assets.xcassets */; };
 		BE07786D20AB2AF100DA2151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE07786B20AB2AF100DA2151 /* LaunchScreen.storyboard */; };
+		BE092CB020AD49F000A9EF10 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE092CAF20AD49F000A9EF10 /* AVFoundation.framework */; };
+		BE092CB220AD4D8000A9EF10 /* SimplestAVFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE092CB120AD4D8000A9EF10 /* SimplestAVFoundation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BE07786920AB2AF100DA2151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE07786C20AB2AF100DA2151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE07786E20AB2AF100DA2151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE092CAF20AD49F000A9EF10 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BE092CB120AD4D8000A9EF10 /* SimplestAVFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplestAVFoundation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE092CB020AD49F000A9EF10 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				BE07786120AB2AED00DA2151 /* simplestAVFoundation */,
 				BE07786020AB2AED00DA2151 /* Products */,
+				BE092CAE20AD49F000A9EF10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +66,17 @@
 				BE07786920AB2AF100DA2151 /* Assets.xcassets */,
 				BE07786B20AB2AF100DA2151 /* LaunchScreen.storyboard */,
 				BE07786E20AB2AF100DA2151 /* Info.plist */,
+				BE092CB120AD4D8000A9EF10 /* SimplestAVFoundation.swift */,
 			);
 			path = simplestAVFoundation;
+			sourceTree = "<group>";
+		};
+		BE092CAE20AD49F000A9EF10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE092CAF20AD49F000A9EF10 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +152,7 @@
 			files = (
 				BE07786520AB2AED00DA2151 /* ViewController.swift in Sources */,
 				BE07786320AB2AED00DA2151 /* AppDelegate.swift in Sources */,
+				BE092CB220AD4D8000A9EF10 /* SimplestAVFoundation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
